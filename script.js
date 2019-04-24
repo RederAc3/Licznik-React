@@ -35,10 +35,6 @@ var Counter = React.createClass({
         console.log('po kliknięciu w przycisk zmiana wartości licznika')
     },
 
-    shouldComponentUpdate: function () {
-        console.log('porównanie czy liczba z counter jest różna od tej wywołanej, jeżeli tak wywołąnie metody componentWillUpdate')
-    },
-
     componentWillUpdate: function () {
         console.log('zaktualizowanie licznika')
     },
